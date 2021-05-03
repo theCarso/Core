@@ -1,0 +1,15 @@
+cooldownInSeconds: 20
+commands:
+  - 'say bruh'
+items:
+  item1:
+    type: STONE
+    data: 0
+    amount: 16
+    name: '&6Bruh'
+    lore:
+      - '&7TestLore'
+    enchants:
+      - 'DAMAGE_ALL:1'
+cooldowns:
+  5f61653b-0d95-43cc-9ba5-909986b6dd79: 0

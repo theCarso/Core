@@ -1,0 +1,93 @@
+name: Core
+version: ${project.version}
+main: me.thecarso.core.Core
+authors: [ theCarso ]
+softdepend: [Multiverse-Core]
+description: Core Plugin for Server
+commands:
+  gamemode:
+    description: Gamemode command.
+    aliases: [gm]
+  fly:
+    description: Flight command.
+  setspawn:
+    description: Set spawn command.
+  spawn:
+    description: Spawn command.
+  warp:
+    description: Warp command.
+  setwarp:
+    description: Setwarp command.
+  delwarp:
+    description: Delwarp command.
+  message:
+    description: Message command
+    aliases: [msg, m, tell, t]
+  reply:
+    description: Reply command
+    aliases: [r]
+  kit:
+    description: Kit command.
+  broadcast:
+    description: Broadcast command.
+    aliases: [bc]
+  raw:
+    description: Raw command
+  hat:
+    description: Hat command
+  tp:
+    description: Teleport command
+    aliases: [ teleport ]
+  tpa:
+    description: Tpa command
+  tpahere:
+    description: Tpahere command
+  tpaccept:
+    description: Tpaccept command
+    aliases: [tpyes]
+  tpdeny:
+    description: Tpdeny command
+    aliases: [tpno]
+  tptoggle:
+    description: Tptoggle command
+    aliases: [toggletp]
+  back:
+    description: Back command
+  eat:
+    description: Eat command
+    aliases: [feed]
+  echest:
+    description: EChest command
+    aliases: [ec, enderchest]
+  clear:
+    description: Clear command
+    aliases: [ci, clearinventory]
+  ptime:
+    description: Ptime command
+    aliases: [playertime]
+  craft:
+    description: Craft command
+    aliases: [wb, workbench]
+  socialspy:
+    description: Socialspy command
+    aliases: [spy, ss]
+  home:
+    description: Home command
+  delhome:
+    description: Delhome command
+  sethome:
+    description: Sethome command
+  discord:
+    description: Discord command
+  pweather:
+    description: Pweather command
+  fix:
+    description: Fix command
+  nick:
+    description: Nick command
+  seen:
+    description: Seen command
+  sendraw:
+    description: Sendraw command
+  god:
+    description: God command
